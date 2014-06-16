@@ -1,0 +1,90 @@
+extends layout
+
+block content
+
+        // PLAYER LIST
+        h2 Player List
+        #playerList.userList
+            table
+                thead
+                    th SummonerName
+                    th Id
+                    th Level
+                tbody
+        // PLAYER LIST
+
+        br
+
+        // PLAYER INFO
+        #playerInfo
+            h2 Player Info
+            p
+                |  <img id='playerInfoIcon' />
+                strong Summoner Name:
+                |  <span id='playerInfoName'></span>
+                br
+                strong Level:
+                |  <span id='playerInfoLevel'></span>
+                br
+                strong Data Last Revised:
+                |  <span id='playerInfoLastRevised'></span>
+        // PLAYER INFO
+
+        br
+
+        // ADD PLAYER
+        h2 Find Player(s) on Riot
+        #findPlayer
+            fieldset
+                input#inputPlayerName(type='text', placeholder='Summoner Name (or Names comma-separated)')
+                br
+                button#btnFindPlayer Find Player(s)
+        // ADD PLAYER
+
+        // USER LIST
+//        h2 User List
+//        #userList.userList
+//            table
+//                thead
+//                    th UserName
+//                    th Email
+//                    th Delete?
+//                tbody
+        // /USER LIST
+
+        // USER INFO
+//        #userInfo
+//            h2 User Info
+//           p
+//                strong Name:
+//               |  <span id='userInfoName'></span>
+//                br
+//                strong Age:
+//                |  <span id='userInfoAge'></span>
+//                br
+//                strong Gender:
+//                |  <span id='userInfoGender'></span>
+//                br
+//                strong Location:
+//                |  <span id='userInfoLocation'></span>
+        // /USER INFO
+
+        br
+
+        // ADD USER
+        //h2 Add User
+        //#addUser
+          //  fieldset
+            //    input#inputUserName(type='text', placeholder='Username')
+              //  input#inputUserEmail(type='text', placeholder='Email')
+               // br
+                //input#inputUserFullname(type='text', placeholder='Full Name')
+                //input#inputUserAge(type='text', placeholder='Age')
+                //br
+                //input#inputUserLocation(type='text', placeholder='Location')
+                //input#inputUserGender(type='text', placeholder='gender')
+                //br
+                //button#btnAddUser Add User
+        // /ADD USER
+
+    // /WRAPPER
